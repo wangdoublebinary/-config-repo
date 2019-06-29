@@ -5,4 +5,4 @@ zuul:
 #      serviceId: product
     product: /myProduct/**
   ignored-patterns:
-    -/**/product/list
+    - /**/product/list
