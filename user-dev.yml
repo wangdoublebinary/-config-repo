@@ -1,0 +1,13 @@
+server:
+  port: 9007
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://106.12.40.18/spring_cloud_sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
