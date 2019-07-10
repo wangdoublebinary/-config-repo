@@ -7,6 +7,8 @@ zuul:
     product: /myProduct/**
   ignored-patterns:
     -/**/product/list
- management: 
-   security: 
-     enabled: false
+management: 
+  security: 
+    enabled: false
+  
+    
